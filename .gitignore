@@ -1,0 +1,47 @@
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+*.so
+
+# Distribution / packaging
+app/.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+media/
+*.egg-info/
+.installed.cfg
+*.egg
+
+### Python ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+app/.history
+
+# IDE
+
+.history/
+.coverage/
+.coverage
+
+# Environments
+*.env
+
+# Images
+app/output/*
+app/source/*
+!app/source/.info
+!app/output/.info

@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  clean-draws:
+    image: jjanzic/docker-python3-opencv
+    container_name: clean-draws
+    command: python /app/main.py
+    env_file:
+      - .env
+    volumes:
+      - ./app:/app
